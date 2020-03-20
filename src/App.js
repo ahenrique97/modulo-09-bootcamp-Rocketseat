@@ -20,7 +20,7 @@ function App() {
         <Router history={history}>
           <Routes />
           <GlobalStyle />
-          <ToastContainer autoclose={3000} />
+          <ToastContainer autoClose={3000} />
         </Router>
       </PersistGate>
     </Provider>

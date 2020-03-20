@@ -5,7 +5,7 @@ import Header from '~/components/Header';
 
 import { Wrapper } from './styles';
 
-export default function AuthLayout({ children }) {
+export default function DefaultLayout({ children }) {
   return (
     <Wrapper>
       <Header />
@@ -14,6 +14,6 @@ export default function AuthLayout({ children }) {
   );
 }
 
-AuthLayout.propTypes = {
+DefaultLayout.propTypes = {
   children: PropTypes.element.isRequired,
 };

@@ -27,7 +27,7 @@ export default function Profile() {
         <AvatarInput name="avatar_id" />
 
         <Input name="name" placeholder="Nome completo" />
-        <Input name="email" type="email" placeholder="Seu endereco de e-mail" />
+        <Input name="email" type="email" placeholder="Seu endereço de e-mail" />
 
         <hr />
 
@@ -40,7 +40,7 @@ export default function Profile() {
         <Input
           type="password"
           name="confirmPassword"
-          placeholder="Cofirme sua senha"
+          placeholder="Confirmação de senha"
         />
 
         <button type="submit">Atualizar perfil</button>
